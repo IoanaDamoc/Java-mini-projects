@@ -48,7 +48,7 @@ if (user.contains(" ") || user.contains("(") || user.contains(")") || user.conta
      String password = user.nextLine();//reading user's input
      checkLength(password,8,256);//call the checkLength method with password,8 and 256 as arguments as given in the exercise
      checkParentheses(password);//calling the checkParentheses method for the password
-     if (password.contains(username))
+     if (password.contains(username))//check if the password contains the username
      {
      System.out.println("Password cannot contain the username");
      }
