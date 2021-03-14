@@ -8,6 +8,17 @@ public class FirstSteps
       System.out.println(); //print an empty line for task 1.2     
       System.out.println("2 Learning Street, Dudley");
       System.out.println("ioanadamoc@gmail.com");
-//Task 1.3 Write a program that shows your initials in asterisks.      
+//Task 1.3 Write a program that shows your initials in asterisks. 
+     System.out.println();
+     System.out.println("**");
+     System.out.println("**");
+     System.out.println();
+     //System.out.println();
+     System.out.println("**   ****");
+     System.out.println("**   **  **");
+     System.out.println("**   **  **");
+     System.out.println("**   **  **");
+     System.out.println("**   **  **");
+     System.out.println("**   ****  ");
    }
 }
