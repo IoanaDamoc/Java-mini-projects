@@ -20,9 +20,6 @@ public class SwitchStatement
      Scanner keyboard = new Scanner(System.in);//creating a new Scanner object named user
      System.out.print("Enter a number: ");//asking user for a username
      int k = keyboard.nextInt();
-     if (k>=4){//creating the case 4 for all numbers that are greater or equal to 4
-     k = 4;
-     }
      switch (k) {//using the switch statement to pick a line to print accordingly with the user's input
       case 1:
       System.out.println("Add");
@@ -33,9 +30,8 @@ public class SwitchStatement
       case 3:
       System.out.println("Quit");
       break;
-      case 4:
-      System.out.println("Invalid");
-      break;}
+      default:System.out.println("Invalid");
+      }
     }
 }
 
